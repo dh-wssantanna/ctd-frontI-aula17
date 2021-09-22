@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@keyframes animarbola {
+    0%{
+        opacity: 20%;
+    }
+
+    50%{
+        opacity: 70%;
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+input:hover
+{
+    background-color: aqua;
+    transition: all 3s;
+}
+
+#bola
+{
+    animation-name: animarbola;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#passaro
+{
+    transition: all 4s;
+    transform: rotate(10deg) translateX(70px);
+}
+
